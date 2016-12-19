@@ -15,8 +15,6 @@ for (var i = 0; i < data.length; i++) {
 
 secScrape.saveFile(addedData);
 
-
-
 function cleanMexico(row) {
   row.city_modified_for_geo = row.original_city.replace("Mexico, D.F.", "Mexico City");
 }
