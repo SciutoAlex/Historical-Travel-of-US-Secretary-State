@@ -7,7 +7,7 @@ This repository contains a single CSV file of this data. It also includes the No
 
 The Dataset
 -----------
-/data/destinations.csv
+[/data/destinations.csv](data/destinations.csv)
 - `original_country`: text string identifying country scraped from Secretary Of State website
 - `original_city`: text string identifying city scraped from Secretary Of State website.
 - `original_date`: text string identifying date interval scraped from Secretary Of State website.
@@ -31,13 +31,13 @@ The Dataset
 - `end_time_form`: end time of the destination in UTC format.
 - `elapsed_days`: number of days at the destination
 
-/data/secretaries.csv
+[/data/secretaries.csv](data/secretaries.csv)
 - `sec_id`: id of secretary. Same as in `/data/destinations.csv`
 - `url`: url of the page where destination data was scraped
 - `name`: full name of Secretary
 - `years`: years the Secretary served
 
-/data/country-regions.csv
+[/country-regions.csv](/data/country-regions.csv)
 - `country`: every country from the `original_country` field
 - `id`: rough approximation of world region: A: Americas, AS: Asia, AF: Africa, MD: Middle East, E: Europe
 
