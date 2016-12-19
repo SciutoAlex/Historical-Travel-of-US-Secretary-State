@@ -7,5 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SciutoAlex/Historical-Travel-of-US-Secretary-State.git"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "csv": "^1.1.0",
+    "d3": "^4.4.0",
+    "lodash": "^4.17.2",
+    "node-geocode": "^0.2.0",
+    "node-geocoder": "^3.15.1"
+  }
 }
