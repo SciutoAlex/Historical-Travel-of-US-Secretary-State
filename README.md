@@ -30,3 +30,17 @@ The Dataset
 - `start_time_form`: start time of the destination in UTC format.
 - `end_time_form`: end time of the destination in UTC format.
 - `elapsed_days`: number of days at the destination
+
+/data/secretaries.csv
+- `sec_id`: id of secretary. Same as in `/data/destinations.csv`
+- `url`: url of the page where destination data was scraped
+- `name`: full name of Secretary
+- `years`: years the Secretary served
+
+
+Generating Data
+---------------
+The dataset can be regenerated using four Node.js scripts
+1. `scrape-raw.js`: Pull in initial data and generate `secretaries.csv`
+2. `fix-dates.js`: Transform the date/interval text string to structured form
+3. 
