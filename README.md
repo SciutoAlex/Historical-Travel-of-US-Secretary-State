@@ -37,6 +37,9 @@ The Dataset
 - `name`: full name of Secretary
 - `years`: years the Secretary served
 
+/data/country-regions.csv
+- `country`: every country from the `original_country` field
+- `id`: rough approximation of world region: A: Americas, AS: Asia, AF: Africa, MD: Middle East, E: Europe
 
 Generating Data
 ---------------
