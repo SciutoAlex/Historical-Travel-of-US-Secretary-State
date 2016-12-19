@@ -4,7 +4,7 @@ var d3 = require('d3');
 
 var secs = {};
 
-secs.fileName = "./data/v2.csv";
+secs.fileName = "./data/destinations.csv";
 
 secs.columnNames = [
   'original_country',
