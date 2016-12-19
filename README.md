@@ -5,6 +5,10 @@ The US Secretary of State's website publishes an [overview](https://history.stat
 
 This repository contains a single CSV file of this data. It also includes the Node.js scripts used to process the data. Hopefully this data is useful visualization proejcts, statistical analyses, and other uses for geographic, time-based, historical data.
 
+Data Preview
+----------
+![alt tag](preview-img/overview.png)
+
 The Dataset
 -----------
 [/data/destinations.csv](data/destinations.csv)
