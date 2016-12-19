@@ -41,6 +41,8 @@ The Dataset
 Generating Data
 ---------------
 The dataset can be regenerated using four Node.js scripts
+
 1. `scrape-raw.js`: Pull in initial data and generate `secretaries.csv`
 2. `fix-dates.js`: Transform the date/interval text string to structured form
-3. 
+3. `split-and-clean-locs.js`: Some original lines contain multiple cities over multiple days. This script splits them into unique destinations as long as the original line's destination lasted more than one day.
+4. `geocode.js`: Uses Google's geocoding service to geocode the destinations. Requires a free API key.
